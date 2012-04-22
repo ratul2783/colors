@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/edttxtlayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    
+	<EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+        
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:baselineAligned="true">
+	
+        <Button
+	        android:id="@+id/add"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Add Another" 
+	        android:onClick="onClick_Add"/>
+        
+        <Button
+	        android:id="@+id/Save"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Save"
+	        android:onClick="onClick_Save" />
+        
+        
+    </LinearLayout>
+
+    
+
+    
+
+    
+
+</LinearLayout>
